@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Happy Birthday 🎂</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:wght@600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<canvas id="fx"></canvas><div id="balloons"></div><button id="mute">🔊</button>
+
+<div id="gate"><div class="stars"></div><p class="hand">Ada yang spesial buat kamu…</p><h1 class="nm"></h1>
+<button id="go" class="btn">Buka kejutannya 🎁</button><small>nyalakan suara ya 🔊</small></div>
+<div id="count"></div>
+<div id="scare"><img id="simg" alt=""><h2 id="stxt"></h2></div>
+<div id="finale"><img id="fimg" alt=""><p id="ftxt"></p><button id="fx-close" class="btn">Selesai</button></div>
+
+<main id="main">
+<section class="pg hero" id="hero"><p class="hand">Selamat ulang tahun</p><h1 class="nm"></h1>
+ <div class="heart" id="heart"><img src="assets/foto7.jpg" alt=""></div><p class="sub">Ketuk hatinya 💙 lalu tekan Lanjut</p></section>
+
+<section class="pg load" id="load" data-lock="1"><h2>Menyiapkan kejutan…</h2><div class="bar"><i id="bar"></i></div><p id="lmsg" class="hand big"></p>
+ <button id="retry" class="btn" hidden>Coba lagi</button></section>
+
+<section class="pg paper-wrap" id="letterpg" data-lock="1"><div class="paper"><h3 class="hand">Untuk kamu,</h3><p id="letter"></p><p class="hand sign" id="sign"></p></div></section>
+
+<section class="pg" id="gal1"><h2>Kamu di mataku</h2><p class="sub">Ketuk fotonya, ada komentar dari aku</p><div class="polas" id="p1"></div></section>
+<section class="pg" id="gal2"><h2>Masih banyak lagi</h2><p class="sub">Ketuk juga yang ini 💙</p><div class="polas" id="p2"></div></section>
+
+<section class="pg" id="game" data-lock="1"><h2>Tangkap hatinya!</h2><p class="hand big" id="score">0 / 10</p><div id="arena"></div></section>
+
+<section class="pg quiz" id="quiz" data-lock="1"><h2>Pertanyaan penting</h2><p class="hand big">Kamu sayang aku nggak?</p>
+ <div class="qb"><button id="yes" class="btn">Iya dong</button><button id="no" class="btn no">Nggak</button></div><p id="qmsg" class="hand big"></p></section>
+
+<section class="pg why" id="why"><h2>Kenapa aku sayang kamu</h2><p class="sub">Ketuk kartunya</p><div id="cards"></div></section>
+
+<section class="pg doa" id="doa" data-lock="1"><h2>Bintang harapan ✨</h2><p class="sub">Ketuk semua bintangnya</p><div id="sky"></div><p class="hand big" id="doamsg"></p></section>
+
+<section class="pg jan" id="janji" data-lock="1"><h2>Janji-janji aku</h2><p class="sub">Ketuk tiap janji buat distempel</p><div id="jan"></div></section>
+
+<section class="pg cake" id="cakepg" data-lock="1"><h2>Make a wish dulu 🕯️</h2><p class="sub">Ketuk lilinnya buat meniup</p>
+ <div id="cakebox"><div class="candles" id="candles"></div><div class="tier t2"></div><div class="tier t1"></div><div class="plate"></div></div><p class="hand big" id="wishmsg"></p></section>
+
+<section class="pg red" id="redpg" data-lock="1"><h2>⚠️ Tombol terlarang</h2><p class="sub">Apapun yang terjadi, jangan ditekan ya.</p><button id="redbtn" class="redbtn">JANGAN<br>DITEKAN</button></section>
+
+<section class="pg gift" id="giftpg" data-lock="1"><h2>Satu kado lagi…</h2><button id="box" class="box" aria-label="kado"><span class="lid"></span><span class="body"></span></button><div id="prize" class="prize"></div></section>
+
+<section class="pg end" id="end"><div class="stars"></div><h2>Siap buat pestanya?</h2><p class="hand big">Naikkan volume, lalu tekan tombolnya 🎆</p>
+ <button id="party" class="btn">Mulai pesta kembang api</button><button id="again" class="btn" style="background:#fff">Ulangi dari awal</button></section>
+</main>
+<div id="prog"><i></i></div><nav id="nav"><button id="back" aria-label="kembali">‹</button><button id="next" class="btn">Lanjut ➜</button></nav>
+<script src="script.js"></script></body></html>

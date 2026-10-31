@@ -1,0 +1,4 @@
+1. Ekstrak zip, lalu buka index.html di Chrome (klik kanan > Open with).
+2. Edit surat, caption, alasan, hadiah di bagian atas script.js ("EDIT DI SINI"). Ganti "dari" dengan namamu.
+3. Lagu: bawaan nada Happy Birthday (nyala saat tombol "Buka kejutannya" ditekan, karena browser melarang suara sebelum disentuh). Mau lagu sendiri: taruh mp3 di folder assets lalu isi CFG.lagu.
+4. Biar dibuka dari HP dia: upload folder ke Netlify Drop (app.netlify.com/drop), kirim linknya.
